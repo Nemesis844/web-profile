@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Profile</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:4px solid white;
+    margin-bottom:15px;
+}
+
+nav{
+    background:#222;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#0d6efd;
+}
+
+section{
+    max-width:900px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table td{
+    padding:8px;
+    border-bottom:1px solid #ddd;
+}
+
+.skill{
+    background:#0d6efd;
+    color:white;
+    display:inline-block;
+    padding:8px 15px;
+    margin:5px;
+    border-radius:20px;
+}
+
+.project{
+    background:#f8f9fa;
+    padding:15px;
+    border-left:5px solid #0d6efd;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+button{
+    padding:10px 20px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#084298;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<img src="https://via.placeholder.com/150" alt="Foto Profil">
+<h1>Pijar Qibo Ekawira</h1>
+<p>Mahasiswa | Web Developer | IoT Enthusiast</p>
+</header>
+
+<nav>
+<a href="#about">Tentang</a>
+<a href="#biodata">Biodata</a>
+<a href="#skill">Skill</a>
+<a href="#project">Project</a>
+<a href="#contact">Kontak</a>
+</nav>
+
+<section id="about">
+<h2>Tentang Saya</h2>
+<p>
+Halo! Saya adalah mahasiswa yang tertarik pada bidang Web Development,
+Internet of Things (IoT), dan Teknologi Informasi. Saya senang belajar
+hal-hal baru serta membuat website sederhana menggunakan HTML, CSS,
+dan JavaScript.
+</p>
+</section>
+
+<section id="biodata">
+<h2>Biodata</h2>
+
+<table>
+<tr>
+<td>Nama</td>
+<td>Pijar Qibo Ekawira</td>
+</tr>
+
+<tr>
+<td>NPM</td>
+<td>2514370150</td>
+</tr>
+
+<tr>
+<td>Program Studi</td>
+<td>Teknik Informatika</td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td>pijar@example.com</td>
+</tr>
+
+<tr>
+<td>Alamat</td>
+<td>Sumatera Utara</td>
+</tr>
+
+<tr>
+<td>Hobi</td>
+<td>Programming, Gaming, IoT</td>
+</tr>
+</table>
+
+</section>
+
+<section id="skill">
+<h2>Skill</h2>
+
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">JavaScript</span>
+<span class="skill">PHP</span>
+<span class="skill">MySQL</span>
+<span class="skill">IoT</span>
+
+</section>
+
+<section id="project">
+<h2>Project</h2>
+
+<div class="project">
+<h3>Website Profil</h3>
+<p>Membuat website profil pribadi menggunakan HTML dan CSS.</p>
+</div>
+
+<div class="project">
+<h3>Aplikasi CRUD Mahasiswa</h3>
+<p>Membuat aplikasi CRUD sederhana menggunakan PHP dan MySQL.</p>
+</div>
+
+<div class="project">
+<h3>Smart Home IoT</h3>
+<p>Monitoring lampu dan sensor menggunakan ESP8266 dan Blynk.</p>
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Kontak</h2>
+
+<p>Email : pijar@example.com</p>
+
+<p>WhatsApp : 08xxxxxxxxxx</p>
+
+<p>Instagram : @username</p>
+
+<br>
+
+<button onclick="pesan()">Hubungi Saya</button>
+
+</section>
+
+<footer>
+<p>&copy; 2026 Pijar Qibo Ekawira | Web Profile Sederhana</p>
+</footer>
+
+<script>
+function pesan(){
+    alert("Terima kasih telah mengunjungi website saya.");
+}
+</script>
+
+</body>
+  </html>
